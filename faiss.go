@@ -8,7 +8,7 @@
 package faiss
 
 /*
-#cgo LDFLAGS: -L${FAISS_SHARED_LIB} -lfaiss_c
+#cgo LDFLAGS: -L${SRCDIR}/dylib -lfaiss_c
 
 #include <faiss/c_api/Index_c.h>
 #include <faiss/c_api/error_c.h>
