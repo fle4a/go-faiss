@@ -8,7 +8,7 @@
 package faiss
 
 /*
-#cgo LDFLAGS: -L${SRCDIR}/dylib -lfaiss_c -Wl,-rpath=./dylib
+#cgo LDFLAGS: -L${SRCDIR}/dylib -lfaiss_c -Wl,-rpath=${SRCDIR}/dylib
 
 #include <faiss/c_api/Index_c.h>
 #include <faiss/c_api/error_c.h>
